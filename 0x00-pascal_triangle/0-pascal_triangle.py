@@ -1,4 +1,11 @@
+#!/usr/bin/python3
+'''Used for pascal triangle
+'''
+
 def pascal_triangle(n):
+    '''Creates a list of lists of integers in Pascal's triangle
+    '''
+
     if n <= 0:
         return []
     
